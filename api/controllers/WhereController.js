@@ -7,7 +7,7 @@
 
 module.exports = {
 	pick: function(req,res){
-		return req.view('where');
+		return res.view('where');
 	}
 	
 };
