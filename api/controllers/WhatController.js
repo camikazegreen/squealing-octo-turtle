@@ -7,7 +7,7 @@
 
 module.exports = {
 	pick: function(req,res){
-		return rew.view('what');
+		return req.view('what');
 	}
 	
 };
