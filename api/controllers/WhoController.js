@@ -6,6 +6,9 @@
  */
 
 module.exports = {
+	pick: function(req,res){
+		return rew.view('who');
+	}
 	
 };
 
