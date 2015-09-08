@@ -17,9 +17,9 @@ function resizeElementHeight(element) {
 //   element.style.height = ((height - element.offsetTop - 42) + 'px');
 }
 
-onload=createMonth(startDate);
-onload=initialPastMonth();
-onload=createYear();
+// onload=createMonth(startDate);
+// onload=initialPastMonth();
+// onload=createYear();
 // onload=makeEventMonth(Date.today());
 onload=resizeElementHeight;
 window.onresize=resizeElementHeight;
