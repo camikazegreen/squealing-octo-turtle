@@ -16,10 +16,10 @@ function resizeElementHeight(element) {
   }
 //   element.style.height = ((height - element.offsetTop - 42) + 'px');
 }
-
-// onload=createMonth(startDate);
-// onload=initialPastMonth();
-// onload=createYear();
+console.log("main.js is being called.")
+onload=createMonth(startDate);
+onload=initialPastMonth();
+onload=createYear();
 // onload=makeEventMonth(Date.today());
 onload=resizeElementHeight;
 window.onresize=resizeElementHeight;
