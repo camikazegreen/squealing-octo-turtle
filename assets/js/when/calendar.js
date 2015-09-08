@@ -325,7 +325,7 @@ function createYear(){
 	var m=0;
 
 	$('.today').hover(function(){
-	alert('doin it')
+	console.log('doin it')
 })
 
 
